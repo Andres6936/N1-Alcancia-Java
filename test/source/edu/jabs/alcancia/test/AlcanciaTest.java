@@ -98,11 +98,11 @@ public class AlcanciaTest
         alcancia.agregarMoneda500( );
         alcancia.agregarMoneda1000( );
 
-        assertEquals( "El número de monedas est� equivocado.", 2, alcancia.darNumeroMonedas50( ) );
-        assertEquals( "El número de monedas est� equivocado.", 1, alcancia.darNumeroMonedas100( ) );
-        assertEquals( "El número de monedas est� equivocado.", 3, alcancia.darNumeroMonedas200( ) );
-        assertEquals( "El número de monedas est� equivocado.", 3, alcancia.darNumeroMonedas500( ) );
-        assertEquals( "El número de monedas est� equivocado.", 2, alcancia.darNumeroMonedas1000( ) );
+        assertEquals( "El número de monedas está equivocado.", 2, alcancia.darNumeroMonedas50( ) );
+        assertEquals( "El número de monedas está equivocado.", 1, alcancia.darNumeroMonedas100( ) );
+        assertEquals( "El número de monedas está equivocado.", 3, alcancia.darNumeroMonedas200( ) );
+        assertEquals( "El número de monedas está equivocado.", 3, alcancia.darNumeroMonedas500( ) );
+        assertEquals( "El número de monedas está equivocado.", 2, alcancia.darNumeroMonedas1000( ) );
     }
 
     /**
