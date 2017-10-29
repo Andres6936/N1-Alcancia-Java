@@ -86,3 +86,6 @@ fabric.properties
 # Archivos
 .classpath
 .project
+
+# Archivos JAR ignorados
+!/lib/JUnit-4.12.jar
