@@ -52,7 +52,7 @@ public class PanelAlcancia extends JPanel
     {
         setLayout( new BorderLayout( ) );
 
-        lblAlcancia = new JLabel( new ImageIcon( "./data/alcancia.png" ) );
+        lblAlcancia = new JLabel( new ImageIcon( "./data/Alcancia.png" ) );
         add( lblAlcancia, BorderLayout.CENTER );
 
         txtMensaje = new JTextArea( 3, 40 );
@@ -92,11 +92,11 @@ public class PanelAlcancia extends JPanel
     {
         if( pRota )
         {
-            lblAlcancia.setIcon( new ImageIcon( "./data/alcanciaRota.png" ) );
+            lblAlcancia.setIcon( new ImageIcon( "./data/AlcanciaRota.png" ) );
         }
         else
         {
-            lblAlcancia.setIcon( new ImageIcon( "./data/alcancia.png" ) );
+            lblAlcancia.setIcon( new ImageIcon( "./data/Alcancia.png" ) );
         }
         validate( );
     }
